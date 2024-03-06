@@ -4,8 +4,8 @@
 
 ## Features
 
-- Uses of navbar
-- Uses of section
+- Uses of navigationbar
+- Uses of section tag
 - concept of setting background image
 - flexbox...
 

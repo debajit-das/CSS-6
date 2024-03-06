@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.6;
+  font-family: "Noto Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #280185;
+  padding: 30px 100px;
+  box-shadow: 0px 5px 10px black;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+.links {
+  scroll-behavior: smooth;
+}
+a {
+  scroll-behavior: smooth;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-bottom: 2px solid white;
+  /* transition: 0.2s ease-in; */
+}
+.section1 {
+  background-image: url("hero_image.png");
+  background-size: cover;
+}
+.part1 {
+  position: relative;
+  top: 100px;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  padding: 25px 100px;
+}
+.large {
+  font-size: 100px;
+  font-weight: bolder;
+  justify-content: center;
+}
+.section2 {
+  background-color: #490589;
+  height: 80vh;
+}
+.part2 {
+  color: white;
+  text-align: center;
+  padding: 100px 100px 0px 100px;
+}
+.btn1 {
+  width: 180px;
+  height: 45px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+.btn1:hover {
+  background-color: #be0a0a;
+}
+.section3 {
+  height: 190vh;
+}
+.part3 {
+  position: relative;
+  top: 500px;
+  text-align: center;
+  padding: 25px 100px;
+}
+.btn2 {
+  width: 180px;
+  height: 45px;
+  background-color: #5105a8;
+  color: white;
+  border: 1px solid transparent;
+  transition: 0.2s ease-in-out;
+}
+.btn2:hover {
+  background-color: rgb(197, 11, 11);
+}
+.section4 {
+  background-image: url("video.png");
+  background-size: cover;
+  height: 100vh;
+}
+.part4 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 30%;
+  padding: 25px 100px;
+}
+.section5 {
+  height: 80vh;
+}
+.part5 {
+  padding: 100px 100px 25px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+.part6 {
+  background-color: #280185;
+  color: white;
+  padding: 25px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+.listItems {
+  list-style: none;
+}
+footer {
+  background-color: rgb(31 14 96);
+  color: white;
+  text-align: center;
+  padding: 15px 100px;
+}

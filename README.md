@@ -5,7 +5,7 @@
 ## Features
 
 - Uses of navbar
-- Uses og section
+- Uses of section
 - concept of setting background image
 - flexbox...
 
